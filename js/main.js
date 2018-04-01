@@ -4,3 +4,6 @@ function sum() {
     return a + b;
 }
 alert (sum());
+
+
+
