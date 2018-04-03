@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-    <title>Calc</title>
-    <link rel="stylesheet" href="css/calc-style.css">
-    <script src="js/main.js"></script>
+<meta charset="utf-8" />
+<title>Калькулятор</title>
+<link rel="stylesheet" href="css/calc-style.css">
+<script src="js/main.js"></script>
+
 </head>
 
 <body>
-    <div class="calc">
-        <input>
-        <div class="button-set numbers">
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button>
-            <button id="four">4</button>
-            <button id="five">5</button>
-            <button id="six">6</button>
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
-            <button id="zero">0</button>
-        </div>
-        <div class="button-set operators">
-            <button>+</button>
-            <button>-</button>
-            <button>/</button>
-            <button>*</button>
-        </div>
-        <div class="button-set">
-            <button class="equal">=</button>
-        </div>
-    </div>
-</body>
 
+<form name="calc" id="calculator" class="calc">
+		<input type="text" name="input" size="16" class="result">
+	<div class="">
+		<button class="buttons numbers" type="button" name="one" value="1" >1</button>
+		<button class="buttons numbers" type="button" name="two" value="2">2</button>
+		<button class="buttons numbers" type="button" name="three" value="3">3</button>
+		<button class="buttons" type="button" name="add" value="+">+</button>
+		<br>
+		<button class="buttons numbers" type="button" name="four" value="4">4</button>
+		<button class="buttons numbers" type="button" name="five" value="5">5</button>
+		<button class="buttons numbers" type="button" name="six" value="6">6</button>
+		<button class="buttons" type="button" name="sub" value="-">-</button>
+		<br>
+		<button class="buttons numbers" type="button" name="seven" value="7">7</button>
+		<button class="buttons numbers" type="button" name="eight" value="8">8</button>
+		<button class="buttons numbers" type="button" name="nine" value="9">9</button>
+		<button class="buttons" type="button" name="mul" value="*">*</button>
+		<br>
+		<button class="buttons" type="button" name="clear" value="c">C</button>
+		<button class="buttons numbers" type="button" name="zero" value="0">0</button>
+		<button class="buttons" type="button" name="doit" value="=">=</button>
+		<button class="buttons" type="button" name="div"  value="/">/</button>
+    </div>
+
+</form>
+</body>
 </html>
+
+
