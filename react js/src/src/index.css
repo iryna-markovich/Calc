@@ -1,0 +1,48 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #03a9f4;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 430px;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e2e2;
+  padding: 2rem;
+  background: rgba(243, 243, 243, 0.5);
+  border-radius: 5px;
+  box-shadow: 0px 0px 35px rgba(222, 222, 222, 0.7);
+  margin: 1rem 1rem;
+  width: calc(360px - 3rem);
+}
+.calculator__window {
+  display: block;
+}
+
+@media (max-width: 670px) {
+  .app {
+    flex-direction: column;
+    height: auto;
+  }
+  .calculator {
+    width: auto;
+  }
+}

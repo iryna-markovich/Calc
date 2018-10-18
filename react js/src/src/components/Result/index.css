@@ -1,0 +1,12 @@
+.calculator__result {
+  padding: 0;
+  color: #ffffff;
+  text-align: right;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  margin-bottom: 0.5rem;
+  cursor: default;
+}
+.calculator__result_smaller {
+  font-size: 1.5rem;
+}

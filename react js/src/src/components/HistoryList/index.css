@@ -1,0 +1,37 @@
+.history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  overflow: hidden;
+  margin: 1rem;
+}
+.history__title {
+  margin: 0 0 1rem 0;
+  color: #ffffff;
+}
+.history__display {
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  background: #ffffff;
+  padding: 1rem;
+  line-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100vh;
+}
+.history__item {
+  display: block;
+  word-break: break-all;
+  margin: 0.2rem 0;
+}
+@media (max-width: 670px) {
+  .history {
+    width: auto;
+  }
+  .history__display {
+    height: 15vh;
+  }
+}
